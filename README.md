@@ -53,8 +53,8 @@ Uses a local SQLite database (`database/students.db`). The database directory an
 // Request body
 {
   "name": "Pranav A",
-  "rollNumber": "CS2001",
-  "department": "Computer Science",
+  "rollNumber": "67",
+  "department": "Information Technology",
   "year": 3
 }
 
@@ -62,23 +62,23 @@ Uses a local SQLite database (`database/students.db`). The database directory an
 {
   "id": 1,
   "name": "Pranav A",
-  "rollNumber": "CS2001",
-  "department": "Computer Science",
+  "rollNumber": "67",
+  "department": "Information Technology",
   "year": 3,
   "createdAt": "2026-09-19T08:00:00.000Z",
   "updatedAt": "2026-09-19T08:00:00.000Z"
 }
 ```
 
-**GET `/api/students?department=Computer Science`**
+**GET `/api/students?department=Information Technology`**
 ```json
 // Response (200 OK)
 [
   {
     "id": 1,
     "name": "Pranav A",
-    "rollNumber": "CS2001",
-    "department": "Computer Science",
+    "rollNumber": "67",
+    "department": "Information Technology",
     "year": 3,
     "createdAt": "...",
     "updatedAt": "..."
